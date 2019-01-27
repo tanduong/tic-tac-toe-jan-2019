@@ -86,6 +86,8 @@ class App extends Component {
   replay = () => {
     this.setState({
       board: [[null, null, null], [null, null, null], [null, null, null]],
+      finished: false,
+      turn: 'x',
     });
   };
 
